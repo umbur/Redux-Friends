@@ -14,7 +14,7 @@ function Friend({friend, deleteFriend}) {
       <a href={`mailto:${friend.email}`}>{friend.email}</a>
       <span
         className='delete-btn'
-        onClick={() => deleteFriend(friend)}>X</span>
+        onClick={() => deleteFriend(friend)}><button>Delete</button></span>
 
     </div>
 
