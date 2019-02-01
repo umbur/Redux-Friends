@@ -31,8 +31,8 @@ class FriendForm extends React.Component {
 
   render() {
     return (
-    <form onSubmit={this.handleSubmit}>
-        <input type='text' name='name' value={this.state.name} onChange={this.handleChange} />
+    <form onSubmit={this.handleSubmit} className='mainForm'>
+        <input type='text' name='name' value={this.state.name} onChange={this.handleChange}className='textForm' />
         <input type='number' name='age' value={this.state.age} onChange={this.handleChange} />
         <input type='email' name='email' value={this.state.email} onChange={this.handleChange} />
         <button>Add friend!</button>

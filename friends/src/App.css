@@ -1,26 +1,28 @@
 .App {
   text-align: center;
+  background: #8080800f;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.friends-list{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 8px
 }
 
-.App-link {
-  color: #61dafb;
+.friend{
+  border: 1px solid #9e9e9e87;
+  width: 196px;
+  display: block;
+  border-radius: 18px;
+  height: 158px;
 }
+
+.deleteBtn{
+  display: flex;
+  margin: 8px auto;
+}
+
 
 @keyframes App-logo-spin {
   from {
